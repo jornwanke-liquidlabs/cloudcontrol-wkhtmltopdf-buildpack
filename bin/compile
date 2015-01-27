@@ -7,7 +7,10 @@ mkdir -p $BIN_PATH
 
 #WKHTMLTOPDF_BINARY="http://sourceforge.net/projects/wkhtmltopdf/files/0.12.1/wkhtmltox-0.12.1_linux-trusty-amd64.deb/download"
 #WKHTMLTOPDF_BINARY="http://downloads.sourceforge.net/project/wkhtmltopdf/0.12.2/wkhtmltox-0.12.2_linux-trusty-amd64.deb"
-WKHTMLTOPDF_BINARY="http://downloads.sourceforge.net/project/wkhtmltopdf/0.12.2.1/wkhtmltox-0.12.2.1_linux-trusty-amd64.deb"
+#WKHTMLTOPDF_BINARY="http://downloads.sourceforge.net/project/wkhtmltopdf/0.12.2.1/wkhtmltox-0.12.2.1_linux-trusty-amd64.deb"
+
+#store immutable copy
+WKHTMLTOPDF_BINARY="https://github.com/jornwanke-liquidlabs/cloudcontrol-wkhtmltopdf-buildpack/blob/master/wkhtmltox-0.12.2.1_linux-trusty-amd64.deb"
 
 WKHTMLTOPDF_PATH="$1/bin/wkhtmltopdf"
 WKHTMLTOPDF_COMPRESSED_PATH="$1/bin/wkhtmltopdf.tar.xz"
